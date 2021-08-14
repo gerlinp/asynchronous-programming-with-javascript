@@ -5,7 +5,7 @@ const btn = document.querySelector('button');
 
 
 
-function getProfiles(json) {
+function getProfiles(json) {f
   const profiles = json.people.map( person => {
     const craft = person.craft;
     return fetch(wikiUrl + person.name)
